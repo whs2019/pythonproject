@@ -1,7 +1,6 @@
 # -*- coding: UTF-8 -*-
 import numpy as np
 
-
 def file2matrix(filename):
     #打开文件
     fr = open(filename)
@@ -38,5 +37,6 @@ if __name__ == '__main__':
     filename = "D:\datingTestSet.txt"
     #打开并处理数据
     datingDataMat, datingLabels = file2matrix(filename)
+    print('笔记本测试git')
     print(datingDataMat)
     print(datingLabels)
