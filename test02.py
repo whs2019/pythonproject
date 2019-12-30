@@ -37,6 +37,6 @@ if __name__ == '__main__':
     filename = "D:\datingTestSet.txt"
     #打开并处理数据
     datingDataMat, datingLabels = file2matrix(filename)
-    print('笔记本测试git')
+    print('分支测试whs')
     print(datingDataMat)
     print(datingLabels)
